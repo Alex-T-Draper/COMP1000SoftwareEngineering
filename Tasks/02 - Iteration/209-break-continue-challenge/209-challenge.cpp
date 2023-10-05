@@ -7,7 +7,7 @@ int main()
     {
         char c = getchar(); //Read character
         char _ = getchar(); //Read and discard newline (nice little hack :)
-        if (c == 'q')
+        if ((c == 'q') || (c == 'Q'))
         {
             printf("\tUser stopped the loop early at %d\n", i);
             quitEarly = true;       //Flag that indicated the loop was exited
